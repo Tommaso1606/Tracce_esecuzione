@@ -1,0 +1,3698 @@
+{
+  "data": [
+    {
+      "traceID": "91f88f911d530599",
+      "spans": [
+        {
+          "traceID": "91f88f911d530599",
+          "spanID": "91f88f911d530599",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816381000,
+          "duration": 1069817,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816461000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817443000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "57cf20e6ab74c953",
+      "spans": [
+        {
+          "traceID": "57cf20e6ab74c953",
+          "spanID": "57cf20e6ab74c953",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820234000,
+          "duration": 1014548,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820239000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821247000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "9f49db3a3050ca0a",
+      "spans": [
+        {
+          "traceID": "9f49db3a3050ca0a",
+          "spanID": "9f49db3a3050ca0a",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816388000,
+          "duration": 1064452,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816461000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817445000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "57ded8f82e1590e3",
+      "spans": [
+        {
+          "traceID": "57ded8f82e1590e3",
+          "spanID": "57ded8f82e1590e3",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912819486000,
+          "duration": 625025,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819490000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820110000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "d886408b5b8207c0",
+      "spans": [
+        {
+          "traceID": "d886408b5b8207c0",
+          "spanID": "d886408b5b8207c0",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912820235000,
+          "duration": 881374,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820237000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821116000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "ab878df08d92778b",
+      "spans": [
+        {
+          "traceID": "ab878df08d92778b",
+          "spanID": "ab878df08d92778b",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912821180000,
+          "duration": 622755,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821182000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821801000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "626d1d954e4787dd",
+      "spans": [
+        {
+          "traceID": "626d1d954e4787dd",
+          "spanID": "626d1d954e4787dd",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820131000,
+          "duration": 928793,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820137000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821060000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "26b227deb92e9c86",
+      "spans": [
+        {
+          "traceID": "26b227deb92e9c86",
+          "spanID": "26b227deb92e9c86",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912821110000,
+          "duration": 718420,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821112000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821828000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "c3fa78e7640ff8e2",
+      "spans": [
+        {
+          "traceID": "c3fa78e7640ff8e2",
+          "spanID": "c3fa78e7640ff8e2",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912822731000,
+          "duration": 295239,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822733000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912823025000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "31148555ae1f4799",
+      "spans": [
+        {
+          "traceID": "31148555ae1f4799",
+          "spanID": "31148555ae1f4799",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820131000,
+          "duration": 664592,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820134000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820796000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "9aa31630f3585bc6",
+      "spans": [
+        {
+          "traceID": "9aa31630f3585bc6",
+          "spanID": "9aa31630f3585bc6",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912823055000,
+          "duration": 295507,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912823057000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912823350000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "2bd1b1e33d550287",
+      "spans": [
+        {
+          "traceID": "2bd1b1e33d550287",
+          "spanID": "2bd1b1e33d550287",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816382000,
+          "duration": 1085346,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816471000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817443000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "8f71debc5b24e9c6",
+      "spans": [
+        {
+          "traceID": "8f71debc5b24e9c6",
+          "spanID": "8f71debc5b24e9c6",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912819488000,
+          "duration": 400843,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819492000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819889000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "7217879d303302bb",
+      "spans": [
+        {
+          "traceID": "7217879d303302bb",
+          "spanID": "7217879d303302bb",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820119000,
+          "duration": 465664,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820145000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820583000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "a04788f5725ea1d3",
+      "spans": [
+        {
+          "traceID": "a04788f5725ea1d3",
+          "spanID": "a04788f5725ea1d3",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912821717000,
+          "duration": 422212,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821718000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822139000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "94c03175fb112208",
+      "spans": [
+        {
+          "traceID": "94c03175fb112208",
+          "spanID": "94c03175fb112208",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816384000,
+          "duration": 1110419,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816481000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817494000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "d9abe73b7e91bbb2",
+      "spans": [
+        {
+          "traceID": "d9abe73b7e91bbb2",
+          "spanID": "d9abe73b7e91bbb2",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820671000,
+          "duration": 934699,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820689000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821606000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "dbb1bd27ce965c6d",
+      "spans": [
+        {
+          "traceID": "dbb1bd27ce965c6d",
+          "spanID": "dbb1bd27ce965c6d",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912821960000,
+          "duration": 181867,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821962000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822139000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "59993da30b1daa2a",
+      "spans": [
+        {
+          "traceID": "59993da30b1daa2a",
+          "spanID": "59993da30b1daa2a",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820777000,
+          "duration": 768663,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820782000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821545000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "9ed90d0c7a458b82",
+      "spans": [
+        {
+          "traceID": "9ed90d0c7a458b82",
+          "spanID": "9ed90d0c7a458b82",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912819477000,
+          "duration": 606091,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819501000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820083000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "e2c8cc87ada1fe4f",
+      "spans": [
+        {
+          "traceID": "e2c8cc87ada1fe4f",
+          "spanID": "e2c8cc87ada1fe4f",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912822214000,
+          "duration": 205840,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822215000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822419000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "4d0623de416f8abc",
+      "spans": [
+        {
+          "traceID": "4d0623de416f8abc",
+          "spanID": "4d0623de416f8abc",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816384000,
+          "duration": 1083083,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816461000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817443000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "5f2e24ce1ce84f20",
+      "spans": [
+        {
+          "traceID": "5f2e24ce1ce84f20",
+          "spanID": "5f2e24ce1ce84f20",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912820234000,
+          "duration": 775353,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820236000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821009000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "e56eb737dc638404",
+      "spans": [
+        {
+          "traceID": "e56eb737dc638404",
+          "spanID": "e56eb737dc638404",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912819492000,
+          "duration": 466774,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819494000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819954000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "fbe3b7e755208c05",
+      "spans": [
+        {
+          "traceID": "fbe3b7e755208c05",
+          "spanID": "fbe3b7e755208c05",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816385000,
+          "duration": 1082407,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816468000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817443000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "c277b7329ccf6df1",
+      "spans": [
+        {
+          "traceID": "c277b7329ccf6df1",
+          "spanID": "c277b7329ccf6df1",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912822429000,
+          "duration": 251215,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822442000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822680000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "78f5e132cd36c9e",
+      "spans": [
+        {
+          "traceID": "78f5e132cd36c9e",
+          "spanID": "78f5e132cd36c9e",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912816380000,
+          "duration": 1072975,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912816461000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912817445000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "d42776504781e8d6",
+      "spans": [
+        {
+          "traceID": "d42776504781e8d6",
+          "spanID": "d42776504781e8d6",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912819487000,
+          "duration": 557608,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819489000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820044000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "8c8fcc5cb58b50d6",
+      "spans": [
+        {
+          "traceID": "8c8fcc5cb58b50d6",
+          "spanID": "8c8fcc5cb58b50d6",
+          "flags": 1,
+          "operationName": "createDefaultUser",
+          "references": [],
+          "startTime": 1698912820229000,
+          "duration": 497149,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/auth"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912820240000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AuthController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "createDefaultUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820726000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity<edu.fudan.common.util.Response> auth.controller.AuthController.createDefaultUser(auth.dto.AuthDto)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "18e3e51087197c08",
+      "spans": [
+        {
+          "traceID": "18e3e51087197c08",
+          "spanID": "18e3e51087197c08",
+          "flags": 1,
+          "operationName": "getToken",
+          "references": [],
+          "startTime": 1698912822187000,
+          "duration": 291821,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-auth-service:12340/api/v1/users/login"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822189000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getToken"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822479000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> auth.controller.UserController.getToken(auth.dto.BasicAuthDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-auth-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "cf5da47222e2"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.40"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    }
+  ],
+  "total": 0,
+  "limit": 0,
+  "offset": 0,
+  "errors": null
+}

@@ -1,0 +1,2898 @@
+{
+  "data": [
+    {
+      "traceID": "6898d5ae4a47a1fb",
+      "spans": [
+        {
+          "traceID": "6898d5ae4a47a1fb",
+          "spanID": "7fd3ea6acfad5c32",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "6898d5ae4a47a1fb",
+              "spanID": "2848c2314393edb4"
+            }
+          ],
+          "startTime": 1698912818547439,
+          "duration": 1402084,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818937439,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819930439,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "6898d5ae4a47a1fb",
+          "spanID": "6898d5ae4a47a1fb",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817748000,
+          "duration": 2453070,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818157000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820172000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "6898d5ae4a47a1fb",
+          "spanID": "2848c2314393edb4",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "6898d5ae4a47a1fb",
+              "spanID": "6898d5ae4a47a1fb"
+            }
+          ],
+          "startTime": 1698912818362000,
+          "duration": 1772963,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "944c5e7fe7744d8",
+      "spans": [
+        {
+          "traceID": "944c5e7fe7744d8",
+          "spanID": "a41c84c2045cbe6b",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "944c5e7fe7744d8",
+              "spanID": "74043b9236dd28a7"
+            }
+          ],
+          "startTime": 1698912819216577,
+          "duration": 646574,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819241577,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819860577,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "944c5e7fe7744d8",
+          "spanID": "74043b9236dd28a7",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "944c5e7fe7744d8",
+              "spanID": "944c5e7fe7744d8"
+            }
+          ],
+          "startTime": 1698912818366000,
+          "duration": 2347729,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "944c5e7fe7744d8",
+          "spanID": "944c5e7fe7744d8",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817746000,
+          "duration": 2974636,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818146000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820719000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "e29d7c3c03517e74",
+      "spans": [
+        {
+          "traceID": "e29d7c3c03517e74",
+          "spanID": "ce29a08da4f55d55",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e29d7c3c03517e74",
+              "spanID": "f8213251c01fc744"
+            }
+          ],
+          "startTime": 1698912821630600,
+          "duration": 522320,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821658600,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822148600,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "e29d7c3c03517e74",
+          "spanID": "e29d7c3c03517e74",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912821618000,
+          "duration": 583658,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821625000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822183000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "e29d7c3c03517e74",
+          "spanID": "f8213251c01fc744",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "e29d7c3c03517e74",
+              "spanID": "e29d7c3c03517e74"
+            }
+          ],
+          "startTime": 1698912821627000,
+          "duration": 529520,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "b40f58879f2283dc",
+      "spans": [
+        {
+          "traceID": "b40f58879f2283dc",
+          "spanID": "81b62a353564c46d",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "b40f58879f2283dc",
+              "spanID": "f5b5d6b93c30f813"
+            }
+          ],
+          "startTime": 1698912818752000,
+          "duration": 1258757,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819141000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819999000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "b40f58879f2283dc",
+          "spanID": "f5b5d6b93c30f813",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "b40f58879f2283dc",
+              "spanID": "b40f58879f2283dc"
+            }
+          ],
+          "startTime": 1698912818361000,
+          "duration": 1658459,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "b40f58879f2283dc",
+          "spanID": "b40f58879f2283dc",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817746000,
+          "duration": 2370351,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818164000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820104000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "35b3623d56118d0",
+      "spans": [
+        {
+          "traceID": "35b3623d56118d0",
+          "spanID": "3b0f278800e08e86",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "35b3623d56118d0",
+              "spanID": "e3dd1fa66faac653"
+            }
+          ],
+          "startTime": 1698912821871038,
+          "duration": 271072,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821878038,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822140038,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "35b3623d56118d0",
+          "spanID": "e3dd1fa66faac653",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "35b3623d56118d0",
+              "spanID": "35b3623d56118d0"
+            }
+          ],
+          "startTime": 1698912821871000,
+          "duration": 271149,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "35b3623d56118d0",
+          "spanID": "35b3623d56118d0",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912821859000,
+          "duration": 307742,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912821869000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822155000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "322a7ac6eab62af3",
+      "spans": [
+        {
+          "traceID": "322a7ac6eab62af3",
+          "spanID": "1e90838f30039f0a",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "322a7ac6eab62af3",
+              "spanID": "869a855ddac5bf81"
+            }
+          ],
+          "startTime": 1698912818555358,
+          "duration": 1390802,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818944358,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819943358,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "322a7ac6eab62af3",
+          "spanID": "869a855ddac5bf81",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "322a7ac6eab62af3",
+              "spanID": "322a7ac6eab62af3"
+            }
+          ],
+          "startTime": 1698912818360000,
+          "duration": 1781518,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "322a7ac6eab62af3",
+          "spanID": "322a7ac6eab62af3",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817746000,
+          "duration": 2430308,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818158000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820174000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "f47bcad1a941716",
+      "spans": [
+        {
+          "traceID": "f47bcad1a941716",
+          "spanID": "cfc52cd265e936e0",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "f47bcad1a941716",
+              "spanID": "48292d2184de0625"
+            }
+          ],
+          "startTime": 1698912818555086,
+          "duration": 1321433,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818947086,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819875086,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "f47bcad1a941716",
+          "spanID": "48292d2184de0625",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "f47bcad1a941716",
+              "spanID": "f47bcad1a941716"
+            }
+          ],
+          "startTime": 1698912818360000,
+          "duration": 1711605,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "f47bcad1a941716",
+          "spanID": "f47bcad1a941716",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817746000,
+          "duration": 2361283,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818158000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820097000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "b6e9909fafe848b4",
+      "spans": [
+        {
+          "traceID": "b6e9909fafe848b4",
+          "spanID": "aa593cc869b7b017",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "b6e9909fafe848b4",
+              "spanID": "3a07bea0c2670200"
+            }
+          ],
+          "startTime": 1698912822707462,
+          "duration": 326081,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822712462,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912823030462,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "b6e9909fafe848b4",
+          "spanID": "b6e9909fafe848b4",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912822687000,
+          "duration": 358792,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822695000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912823044000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "b6e9909fafe848b4",
+          "spanID": "3a07bea0c2670200",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "b6e9909fafe848b4",
+              "spanID": "b6e9909fafe848b4"
+            }
+          ],
+          "startTime": 1698912822707000,
+          "duration": 327006,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "9e1f2410388d0732",
+      "spans": [
+        {
+          "traceID": "9e1f2410388d0732",
+          "spanID": "d5494ccba69e84fa",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "9e1f2410388d0732",
+              "spanID": "16b8a638f42f0fb1"
+            }
+          ],
+          "startTime": 1698912818553203,
+          "duration": 1259789,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818943203,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912819796203,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "9e1f2410388d0732",
+          "spanID": "16b8a638f42f0fb1",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "9e1f2410388d0732",
+              "spanID": "9e1f2410388d0732"
+            }
+          ],
+          "startTime": 1698912818360000,
+          "duration": 1646195,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "9e1f2410388d0732",
+          "spanID": "9e1f2410388d0732",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817747000,
+          "duration": 2364851,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818158000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820100000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "3773b18c3fd5118b",
+      "spans": [
+        {
+          "traceID": "3773b18c3fd5118b",
+          "spanID": "117faac507d5dd27",
+          "flags": 1,
+          "operationName": "registerUser",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "3773b18c3fd5118b",
+              "spanID": "a9c4dbd77a65d21b"
+            }
+          ],
+          "startTime": 1698912819187854,
+          "duration": 1105030,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912819219854,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "UserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "registerUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912820273854,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        },
+        {
+          "traceID": "3773b18c3fd5118b",
+          "spanID": "3773b18c3fd5118b",
+          "flags": 1,
+          "operationName": "addUser",
+          "references": [],
+          "startTime": 1698912817752000,
+          "duration": 3411933,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912818157000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AdminUserController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "addUser"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912821161000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p2",
+          "warnings": null
+        },
+        {
+          "traceID": "3773b18c3fd5118b",
+          "spanID": "a9c4dbd77a65d21b",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "3773b18c3fd5118b",
+              "spanID": "3773b18c3fd5118b"
+            }
+          ],
+          "startTime": 1698912818360000,
+          "duration": 2760738,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "6f9a102c4751"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.59"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        },
+        "p2": {
+          "serviceName": "ts-admin-user-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "5f4afd7326e7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.68"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    }
+  ],
+  "total": 0,
+  "limit": 0,
+  "offset": 0,
+  "errors": null
+}

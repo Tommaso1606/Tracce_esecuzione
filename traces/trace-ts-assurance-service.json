@@ -1,0 +1,869 @@
+{
+  "data": [
+    {
+      "traceID": "660761fdd094f724",
+      "spans": [
+        {
+          "traceID": "660761fdd094f724",
+          "spanID": "660761fdd094f724",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912827504000,
+          "duration": 20693,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912827510000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912827523000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "2be769d989ac9ca3",
+      "spans": [
+        {
+          "traceID": "2be769d989ac9ca3",
+          "spanID": "2be769d989ac9ca3",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912822064000,
+          "duration": 873836,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822542000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822884000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "6ac5e0f4f0d1b941",
+      "spans": [
+        {
+          "traceID": "6ac5e0f4f0d1b941",
+          "spanID": "6ac5e0f4f0d1b941",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912822076000,
+          "duration": 816023,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822498000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822839000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "572d0d7e0a524c97",
+      "spans": [
+        {
+          "traceID": "572d0d7e0a524c97",
+          "spanID": "572d0d7e0a524c97",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912822076000,
+          "duration": 822469,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822494000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822861000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "41104f9da4071c7a",
+      "spans": [
+        {
+          "traceID": "41104f9da4071c7a",
+          "spanID": "41104f9da4071c7a",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912823658000,
+          "duration": 9254,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912823663000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912823665000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "1670173542cbf683",
+      "spans": [
+        {
+          "traceID": "1670173542cbf683",
+          "spanID": "1670173542cbf683",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912827447000,
+          "duration": 11391,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912827454000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912827456000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    },
+    {
+      "traceID": "275341d59e23916a",
+      "spans": [
+        {
+          "traceID": "275341d59e23916a",
+          "spanID": "275341d59e23916a",
+          "flags": 1,
+          "operationName": "getAllAssuranceType",
+          "references": [],
+          "startTime": 1698912822069000,
+          "duration": 855038,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 200
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-web-servlet"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "server"
+            },
+            {
+              "key": "sampler.type",
+              "type": "string",
+              "value": "const"
+            },
+            {
+              "key": "sampler.param",
+              "type": "bool",
+              "value": true
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-assurance-service:18888/api/v1/assuranceservice/assurances/types"
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "GET"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [
+            {
+              "timestamp": 1698912822511000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "preHandle"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                },
+                {
+                  "key": "handler.class_simple_name",
+                  "type": "string",
+                  "value": "AssuranceController"
+                },
+                {
+                  "key": "handler.method_name",
+                  "type": "string",
+                  "value": "getAllAssuranceType"
+                }
+              ]
+            },
+            {
+              "timestamp": 1698912822838000,
+              "fields": [
+                {
+                  "key": "event",
+                  "type": "string",
+                  "value": "afterCompletion"
+                },
+                {
+                  "key": "handler",
+                  "type": "string",
+                  "value": "public org.springframework.http.HttpEntity assurance.controller.AssuranceController.getAllAssuranceType(org.springframework.http.HttpHeaders)"
+                }
+              ]
+            }
+          ],
+          "processID": "p1",
+          "warnings": null
+        }
+      ],
+      "processes": {
+        "p1": {
+          "serviceName": "ts-assurance-service",
+          "tags": [
+            {
+              "key": "hostname",
+              "type": "string",
+              "value": "37cd0cd020d7"
+            },
+            {
+              "key": "ip",
+              "type": "string",
+              "value": "172.20.0.4"
+            },
+            {
+              "key": "jaeger.version",
+              "type": "string",
+              "value": "Java-0.30.6"
+            }
+          ]
+        }
+      },
+      "warnings": null
+    }
+  ],
+  "total": 0,
+  "limit": 0,
+  "offset": 0,
+  "errors": null
+}
