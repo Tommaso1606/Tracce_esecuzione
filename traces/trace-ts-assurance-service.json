@@ -1,16 +1,16 @@
 {
   "data": [
     {
-      "traceID": "d885e67c6dd0af7d",
+      "traceID": "da74ab3acc71b946",
       "spans": [
         {
-          "traceID": "d885e67c6dd0af7d",
-          "spanID": "d885e67c6dd0af7d",
+          "traceID": "da74ab3acc71b946",
+          "spanID": "da74ab3acc71b946",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628601492000,
-          "duration": 8741,
+          "startTime": 1699708111743000,
+          "duration": 22518,
           "tags": [
             {
               "key": "http.status_code",
@@ -55,7 +55,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628601497000,
+              "timestamp": 1699708111754000,
               "fields": [
                 {
                   "key": "event",
@@ -80,7 +80,7 @@
               ]
             },
             {
-              "timestamp": 1699628601499000,
+              "timestamp": 1699708111762000,
               "fields": [
                 {
                   "key": "event",
@@ -106,12 +106,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -124,16 +124,16 @@
       "warnings": null
     },
     {
-      "traceID": "e23c592062e09c04",
+      "traceID": "931b31301bd1531b",
       "spans": [
         {
-          "traceID": "e23c592062e09c04",
-          "spanID": "e23c592062e09c04",
+          "traceID": "931b31301bd1531b",
+          "spanID": "931b31301bd1531b",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628595594000,
-          "duration": 960564,
+          "startTime": 1699708118145000,
+          "duration": 67985,
           "tags": [
             {
               "key": "http.status_code",
@@ -178,7 +178,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628596307000,
+              "timestamp": 1699708118209000,
               "fields": [
                 {
                   "key": "event",
@@ -203,7 +203,7 @@
               ]
             },
             {
-              "timestamp": 1699628596543000,
+              "timestamp": 1699708118211000,
               "fields": [
                 {
                   "key": "event",
@@ -229,12 +229,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -247,16 +247,16 @@
       "warnings": null
     },
     {
-      "traceID": "a0f289adbd507295",
+      "traceID": "cd24fd15cfd140fd",
       "spans": [
         {
-          "traceID": "a0f289adbd507295",
-          "spanID": "a0f289adbd507295",
+          "traceID": "cd24fd15cfd140fd",
+          "spanID": "cd24fd15cfd140fd",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628595629000,
-          "duration": 925957,
+          "startTime": 1699708110018000,
+          "duration": 1060242,
           "tags": [
             {
               "key": "http.status_code",
@@ -301,7 +301,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628596307000,
+              "timestamp": 1699708110653000,
               "fields": [
                 {
                   "key": "event",
@@ -326,7 +326,7 @@
               ]
             },
             {
-              "timestamp": 1699628596540000,
+              "timestamp": 1699708110994000,
               "fields": [
                 {
                   "key": "event",
@@ -352,12 +352,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -370,16 +370,16 @@
       "warnings": null
     },
     {
-      "traceID": "6e4fc07e580c837d",
+      "traceID": "a207e607d68666a7",
       "spans": [
         {
-          "traceID": "6e4fc07e580c837d",
-          "spanID": "6e4fc07e580c837d",
+          "traceID": "a207e607d68666a7",
+          "spanID": "a207e607d68666a7",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628595592000,
-          "duration": 963288,
+          "startTime": 1699708118493000,
+          "duration": 14394,
           "tags": [
             {
               "key": "http.status_code",
@@ -424,7 +424,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628596307000,
+              "timestamp": 1699708118503000,
               "fields": [
                 {
                   "key": "event",
@@ -449,7 +449,7 @@
               ]
             },
             {
-              "timestamp": 1699628596538000,
+              "timestamp": 1699708118505000,
               "fields": [
                 {
                   "key": "event",
@@ -475,12 +475,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -493,16 +493,16 @@
       "warnings": null
     },
     {
-      "traceID": "407724397a1ab9b5",
+      "traceID": "baec8a71d1644b1d",
       "spans": [
         {
-          "traceID": "407724397a1ab9b5",
-          "spanID": "407724397a1ab9b5",
+          "traceID": "baec8a71d1644b1d",
+          "spanID": "baec8a71d1644b1d",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628601245000,
-          "duration": 57830,
+          "startTime": 1699708118032000,
+          "duration": 32264,
           "tags": [
             {
               "key": "http.status_code",
@@ -547,7 +547,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628601290000,
+              "timestamp": 1699708118049000,
               "fields": [
                 {
                   "key": "event",
@@ -572,7 +572,7 @@
               ]
             },
             {
-              "timestamp": 1699628601298000,
+              "timestamp": 1699708118063000,
               "fields": [
                 {
                   "key": "event",
@@ -598,12 +598,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -616,16 +616,16 @@
       "warnings": null
     },
     {
-      "traceID": "2e4c92e4ba9eacf1",
+      "traceID": "1113b099abc4ac92",
       "spans": [
         {
-          "traceID": "2e4c92e4ba9eacf1",
-          "spanID": "2e4c92e4ba9eacf1",
+          "traceID": "1113b099abc4ac92",
+          "spanID": "1113b099abc4ac92",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628595594000,
-          "duration": 985337,
+          "startTime": 1699708110027000,
+          "duration": 1014961,
           "tags": [
             {
               "key": "http.status_code",
@@ -670,7 +670,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628596307000,
+              "timestamp": 1699708110651000,
               "fields": [
                 {
                   "key": "event",
@@ -695,7 +695,7 @@
               ]
             },
             {
-              "timestamp": 1699628596576000,
+              "timestamp": 1699708110992000,
               "fields": [
                 {
                   "key": "event",
@@ -721,12 +721,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",
@@ -739,16 +739,16 @@
       "warnings": null
     },
     {
-      "traceID": "ba87ce47de2ff18e",
+      "traceID": "46a461620f1a3ef2",
       "spans": [
         {
-          "traceID": "ba87ce47de2ff18e",
-          "spanID": "ba87ce47de2ff18e",
+          "traceID": "46a461620f1a3ef2",
+          "spanID": "46a461620f1a3ef2",
           "flags": 1,
           "operationName": "getAllAssuranceType",
           "references": [],
-          "startTime": 1699628595594000,
-          "duration": 961299,
+          "startTime": 1699708118989000,
+          "duration": 47648,
           "tags": [
             {
               "key": "http.status_code",
@@ -793,7 +793,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628596307000,
+              "timestamp": 1699708119019000,
               "fields": [
                 {
                   "key": "event",
@@ -818,7 +818,7 @@
               ]
             },
             {
-              "timestamp": 1699628596542000,
+              "timestamp": 1699708119035000,
               "fields": [
                 {
                   "key": "event",
@@ -844,12 +844,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "411aeef0cba1"
+              "value": "917e335db7f0"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.56"
+              "value": "172.27.0.6"
             },
             {
               "key": "jaeger.version",

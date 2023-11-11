@@ -1,22 +1,22 @@
 {
   "data": [
     {
-      "traceID": "fb54c839b59b69d9",
+      "traceID": "3a424642021242b9",
       "spans": [
         {
-          "traceID": "fb54c839b59b69d9",
-          "spanID": "94e5c6c09d1fd928",
+          "traceID": "3a424642021242b9",
+          "spanID": "790c8c978a3e1396",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "fb54c839b59b69d9",
-              "spanID": "2d1b520f17376281"
+              "traceID": "3a424642021242b9",
+              "spanID": "ca8c550bcee97aaa"
             }
           ],
-          "startTime": 1699628592299474,
-          "duration": 1580903,
+          "startTime": 1699708105749000,
+          "duration": 2113217,
           "tags": [
             {
               "key": "http.status_code",
@@ -51,7 +51,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628592775474,
+              "timestamp": 1699708106240000,
               "fields": [
                 {
                   "key": "event",
@@ -76,7 +76,7 @@
               ]
             },
             {
-              "timestamp": 1699628593869474,
+              "timestamp": 1699708107860000,
               "fields": [
                 {
                   "key": "event",
@@ -95,19 +95,19 @@
           "warnings": null
         },
         {
-          "traceID": "fb54c839b59b69d9",
-          "spanID": "2d1b520f17376281",
+          "traceID": "3a424642021242b9",
+          "spanID": "ca8c550bcee97aaa",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "fb54c839b59b69d9",
-              "spanID": "fb54c839b59b69d9"
+              "traceID": "3a424642021242b9",
+              "spanID": "3a424642021242b9"
             }
           ],
-          "startTime": 1699628592054000,
-          "duration": 2071851,
+          "startTime": 1699708105125000,
+          "duration": 2737561,
           "tags": [
             {
               "key": "http.status_code",
@@ -150,13 +150,13 @@
           "warnings": null
         },
         {
-          "traceID": "fb54c839b59b69d9",
-          "spanID": "fb54c839b59b69d9",
+          "traceID": "3a424642021242b9",
+          "spanID": "3a424642021242b9",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591275000,
-          "duration": 2924008,
+          "startTime": 1699708104395000,
+          "duration": 3531534,
           "tags": [
             {
               "key": "http.status_code",
@@ -201,7 +201,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591808000,
+              "timestamp": 1699708104810000,
               "fields": [
                 {
                   "key": "event",
@@ -226,7 +226,7 @@
               ]
             },
             {
-              "timestamp": 1699628594160000,
+              "timestamp": 1699708107924000,
               "fields": [
                 {
                   "key": "event",
@@ -252,12 +252,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -272,12 +272,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -290,22 +290,22 @@
       "warnings": null
     },
     {
-      "traceID": "895b153afe2a2afa",
+      "traceID": "367686a824e62a91",
       "spans": [
         {
-          "traceID": "895b153afe2a2afa",
-          "spanID": "5f2f1b8311dfffbd",
+          "traceID": "367686a824e62a91",
+          "spanID": "86dfe8c62c958375",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "895b153afe2a2afa",
-              "spanID": "56ddda2b2b3249d2"
+              "traceID": "367686a824e62a91",
+              "spanID": "ca4d634f2f3d4c2c"
             }
           ],
-          "startTime": 1699628592303751,
-          "duration": 1318414,
+          "startTime": 1699708105421710,
+          "duration": 1915573,
           "tags": [
             {
               "key": "http.status_code",
@@ -340,7 +340,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628592782751,
+              "timestamp": 1699708105905710,
               "fields": [
                 {
                   "key": "event",
@@ -365,7 +365,7 @@
               ]
             },
             {
-              "timestamp": 1699628593600751,
+              "timestamp": 1699708107301710,
               "fields": [
                 {
                   "key": "event",
@@ -384,19 +384,19 @@
           "warnings": null
         },
         {
-          "traceID": "895b153afe2a2afa",
-          "spanID": "56ddda2b2b3249d2",
+          "traceID": "367686a824e62a91",
+          "spanID": "ca4d634f2f3d4c2c",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "895b153afe2a2afa",
-              "spanID": "895b153afe2a2afa"
+              "traceID": "367686a824e62a91",
+              "spanID": "367686a824e62a91"
             }
           ],
-          "startTime": 1699628592057000,
-          "duration": 1811916,
+          "startTime": 1699708105125000,
+          "duration": 2508993,
           "tags": [
             {
               "key": "http.status_code",
@@ -439,13 +439,13 @@
           "warnings": null
         },
         {
-          "traceID": "895b153afe2a2afa",
-          "spanID": "895b153afe2a2afa",
+          "traceID": "367686a824e62a91",
+          "spanID": "367686a824e62a91",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591276000,
-          "duration": 2929081,
+          "startTime": 1699708104397000,
+          "duration": 3523871,
           "tags": [
             {
               "key": "http.status_code",
@@ -490,7 +490,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591808000,
+              "timestamp": 1699708104878000,
               "fields": [
                 {
                   "key": "event",
@@ -515,7 +515,7 @@
               ]
             },
             {
-              "timestamp": 1699628594021000,
+              "timestamp": 1699708107837000,
               "fields": [
                 {
                   "key": "event",
@@ -541,12 +541,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -561,12 +561,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -579,22 +579,22 @@
       "warnings": null
     },
     {
-      "traceID": "61b538493defcc32",
+      "traceID": "649f51fa69e3e58d",
       "spans": [
         {
-          "traceID": "61b538493defcc32",
-          "spanID": "18ceb3032e80a5c7",
+          "traceID": "649f51fa69e3e58d",
+          "spanID": "72e233cac1f1e5bf",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "61b538493defcc32",
-              "spanID": "7d81b89fe59efa40"
+              "traceID": "649f51fa69e3e58d",
+              "spanID": "c659f6ae24f8be55"
             }
           ],
-          "startTime": 1699628592990769,
-          "duration": 504367,
+          "startTime": 1699708105415944,
+          "duration": 2092238,
           "tags": [
             {
               "key": "http.status_code",
@@ -629,7 +629,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628592999769,
+              "timestamp": 1699708105907944,
               "fields": [
                 {
                   "key": "event",
@@ -654,7 +654,7 @@
               ]
             },
             {
-              "timestamp": 1699628593491769,
+              "timestamp": 1699708107454944,
               "fields": [
                 {
                   "key": "event",
@@ -673,68 +673,13 @@
           "warnings": null
         },
         {
-          "traceID": "61b538493defcc32",
-          "spanID": "7d81b89fe59efa40",
-          "flags": 1,
-          "operationName": "POST",
-          "references": [
-            {
-              "refType": "CHILD_OF",
-              "traceID": "61b538493defcc32",
-              "spanID": "61b538493defcc32"
-            }
-          ],
-          "startTime": 1699628592041000,
-          "duration": 2403906,
-          "tags": [
-            {
-              "key": "http.status_code",
-              "type": "int64",
-              "value": 201
-            },
-            {
-              "key": "component",
-              "type": "string",
-              "value": "java-spring-rest-template"
-            },
-            {
-              "key": "span.kind",
-              "type": "string",
-              "value": "client"
-            },
-            {
-              "key": "http.url",
-              "type": "string",
-              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
-            },
-            {
-              "key": "peer.port",
-              "type": "int64",
-              "value": 12342
-            },
-            {
-              "key": "http.method",
-              "type": "string",
-              "value": "POST"
-            },
-            {
-              "key": "internal.span.format",
-              "type": "string",
-              "value": "proto"
-            }
-          ],
-          "logs": [],
-          "processID": "p2",
-          "warnings": null
-        },
-        {
-          "traceID": "61b538493defcc32",
-          "spanID": "61b538493defcc32",
+          "traceID": "649f51fa69e3e58d",
+          "spanID": "649f51fa69e3e58d",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591276000,
-          "duration": 3200216,
+          "startTime": 1699708104395000,
+          "duration": 3483028,
           "tags": [
             {
               "key": "http.status_code",
@@ -779,7 +724,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591808000,
+              "timestamp": 1699708104870000,
               "fields": [
                 {
                   "key": "event",
@@ -804,7 +749,7 @@
               ]
             },
             {
-              "timestamp": 1699628594461000,
+              "timestamp": 1699708107875000,
               "fields": [
                 {
                   "key": "event",
@@ -821,6 +766,61 @@
           ],
           "processID": "p2",
           "warnings": null
+        },
+        {
+          "traceID": "649f51fa69e3e58d",
+          "spanID": "c659f6ae24f8be55",
+          "flags": 1,
+          "operationName": "POST",
+          "references": [
+            {
+              "refType": "CHILD_OF",
+              "traceID": "649f51fa69e3e58d",
+              "spanID": "649f51fa69e3e58d"
+            }
+          ],
+          "startTime": 1699708105128000,
+          "duration": 2668126,
+          "tags": [
+            {
+              "key": "http.status_code",
+              "type": "int64",
+              "value": 201
+            },
+            {
+              "key": "component",
+              "type": "string",
+              "value": "java-spring-rest-template"
+            },
+            {
+              "key": "span.kind",
+              "type": "string",
+              "value": "client"
+            },
+            {
+              "key": "http.url",
+              "type": "string",
+              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
+            },
+            {
+              "key": "peer.port",
+              "type": "int64",
+              "value": 12342
+            },
+            {
+              "key": "http.method",
+              "type": "string",
+              "value": "POST"
+            },
+            {
+              "key": "internal.span.format",
+              "type": "string",
+              "value": "proto"
+            }
+          ],
+          "logs": [],
+          "processID": "p2",
+          "warnings": null
         }
       ],
       "processes": {
@@ -830,12 +830,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -850,12 +850,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -868,22 +868,22 @@
       "warnings": null
     },
     {
-      "traceID": "fb0e7872a4952dc8",
+      "traceID": "b75569d0681c9fe3",
       "spans": [
         {
-          "traceID": "fb0e7872a4952dc8",
-          "spanID": "97e9571b618662d9",
+          "traceID": "b75569d0681c9fe3",
+          "spanID": "7e0a286d3736ccc7",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "fb0e7872a4952dc8",
-              "spanID": "2dac607361a995f9"
+              "traceID": "b75569d0681c9fe3",
+              "spanID": "8c041a72fd0c395e"
             }
           ],
-          "startTime": 1699628592545000,
-          "duration": 1314802,
+          "startTime": 1699708105409458,
+          "duration": 1988909,
           "tags": [
             {
               "key": "http.status_code",
@@ -918,7 +918,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628593034000,
+              "timestamp": 1699708105895458,
               "fields": [
                 {
                   "key": "event",
@@ -943,7 +943,7 @@
               ]
             },
             {
-              "timestamp": 1699628593850000,
+              "timestamp": 1699708107329458,
               "fields": [
                 {
                   "key": "event",
@@ -962,13 +962,13 @@
           "warnings": null
         },
         {
-          "traceID": "fb0e7872a4952dc8",
-          "spanID": "fb0e7872a4952dc8",
+          "traceID": "b75569d0681c9fe3",
+          "spanID": "b75569d0681c9fe3",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591276000,
-          "duration": 2929286,
+          "startTime": 1699708104395000,
+          "duration": 3511973,
           "tags": [
             {
               "key": "http.status_code",
@@ -1013,7 +1013,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591808000,
+              "timestamp": 1699708104840000,
               "fields": [
                 {
                   "key": "event",
@@ -1038,7 +1038,7 @@
               ]
             },
             {
-              "timestamp": 1699628594022000,
+              "timestamp": 1699708107820000,
               "fields": [
                 {
                   "key": "event",
@@ -1057,19 +1057,19 @@
           "warnings": null
         },
         {
-          "traceID": "fb0e7872a4952dc8",
-          "spanID": "2dac607361a995f9",
+          "traceID": "b75569d0681c9fe3",
+          "spanID": "8c041a72fd0c395e",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "fb0e7872a4952dc8",
-              "spanID": "fb0e7872a4952dc8"
+              "traceID": "b75569d0681c9fe3",
+              "spanID": "b75569d0681c9fe3"
             }
           ],
-          "startTime": 1699628592041000,
-          "duration": 1822007,
+          "startTime": 1699708105128000,
+          "duration": 2551826,
           "tags": [
             {
               "key": "http.status_code",
@@ -1119,12 +1119,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -1139,12 +1139,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -1157,22 +1157,22 @@
       "warnings": null
     },
     {
-      "traceID": "8c93ad7cdc8a6036",
+      "traceID": "b68ac2d06fdafde3",
       "spans": [
         {
-          "traceID": "8c93ad7cdc8a6036",
-          "spanID": "36a82f8282848b11",
+          "traceID": "b68ac2d06fdafde3",
+          "spanID": "92705ca7e69c10dc",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "8c93ad7cdc8a6036",
-              "spanID": "35fdfe873841e603"
+              "traceID": "b68ac2d06fdafde3",
+              "spanID": "79f7c0b032eb74d0"
             }
           ],
-          "startTime": 1699628593917000,
-          "duration": 597251,
+          "startTime": 1699708106463505,
+          "duration": 1279947,
           "tags": [
             {
               "key": "http.status_code",
@@ -1207,7 +1207,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628593942000,
+              "timestamp": 1699708106491505,
               "fields": [
                 {
                   "key": "event",
@@ -1232,7 +1232,7 @@
               ]
             },
             {
-              "timestamp": 1699628594512000,
+              "timestamp": 1699708107740505,
               "fields": [
                 {
                   "key": "event",
@@ -1251,13 +1251,13 @@
           "warnings": null
         },
         {
-          "traceID": "8c93ad7cdc8a6036",
-          "spanID": "8c93ad7cdc8a6036",
+          "traceID": "b68ac2d06fdafde3",
+          "spanID": "b68ac2d06fdafde3",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591276000,
-          "duration": 3245940,
+          "startTime": 1699708104397000,
+          "duration": 4694590,
           "tags": [
             {
               "key": "http.status_code",
@@ -1302,7 +1302,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591808000,
+              "timestamp": 1699708104812000,
               "fields": [
                 {
                   "key": "event",
@@ -1327,7 +1327,7 @@
               ]
             },
             {
-              "timestamp": 1699628594520000,
+              "timestamp": 1699708109089000,
               "fields": [
                 {
                   "key": "event",
@@ -1346,19 +1346,19 @@
           "warnings": null
         },
         {
-          "traceID": "8c93ad7cdc8a6036",
-          "spanID": "35fdfe873841e603",
+          "traceID": "b68ac2d06fdafde3",
+          "spanID": "79f7c0b032eb74d0",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "8c93ad7cdc8a6036",
-              "spanID": "8c93ad7cdc8a6036"
+              "traceID": "b68ac2d06fdafde3",
+              "spanID": "b68ac2d06fdafde3"
             }
           ],
-          "startTime": 1699628592041000,
-          "duration": 2475099,
+          "startTime": 1699708105125000,
+          "duration": 3956957,
           "tags": [
             {
               "key": "http.status_code",
@@ -1408,12 +1408,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -1428,12 +1428,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -1446,22 +1446,22 @@
       "warnings": null
     },
     {
-      "traceID": "2b8f1f3440fd6a6c",
+      "traceID": "70222232ece46431",
       "spans": [
         {
-          "traceID": "2b8f1f3440fd6a6c",
-          "spanID": "7738ab371179466a",
+          "traceID": "70222232ece46431",
+          "spanID": "4aa9504c43dfcc56",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "2b8f1f3440fd6a6c",
-              "spanID": "2d1cb811196061bd"
+              "traceID": "70222232ece46431",
+              "spanID": "75803e3274b714ea"
             }
           ],
-          "startTime": 1699628595298358,
-          "duration": 244147,
+          "startTime": 1699708106466313,
+          "duration": 692379,
           "tags": [
             {
               "key": "http.status_code",
@@ -1496,7 +1496,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628595305358,
+              "timestamp": 1699708106488313,
               "fields": [
                 {
                   "key": "event",
@@ -1521,7 +1521,7 @@
               ]
             },
             {
-              "timestamp": 1699628595539358,
+              "timestamp": 1699708107156313,
               "fields": [
                 {
                   "key": "event",
@@ -1540,19 +1540,19 @@
           "warnings": null
         },
         {
-          "traceID": "2b8f1f3440fd6a6c",
-          "spanID": "2d1cb811196061bd",
+          "traceID": "70222232ece46431",
+          "spanID": "75803e3274b714ea",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "2b8f1f3440fd6a6c",
-              "spanID": "2b8f1f3440fd6a6c"
+              "traceID": "70222232ece46431",
+              "spanID": "70222232ece46431"
             }
           ],
-          "startTime": 1699628595296000,
-          "duration": 248864,
+          "startTime": 1699708105131000,
+          "duration": 3363005,
           "tags": [
             {
               "key": "http.status_code",
@@ -1595,13 +1595,13 @@
           "warnings": null
         },
         {
-          "traceID": "2b8f1f3440fd6a6c",
-          "spanID": "2b8f1f3440fd6a6c",
+          "traceID": "70222232ece46431",
+          "spanID": "70222232ece46431",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628595285000,
-          "duration": 271688,
+          "startTime": 1699708104395000,
+          "duration": 4106984,
           "tags": [
             {
               "key": "http.status_code",
@@ -1646,7 +1646,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628595295000,
+              "timestamp": 1699708104879000,
               "fields": [
                 {
                   "key": "event",
@@ -1671,7 +1671,7 @@
               ]
             },
             {
-              "timestamp": 1699628595555000,
+              "timestamp": 1699708108500000,
               "fields": [
                 {
                   "key": "event",
@@ -1697,12 +1697,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -1717,12 +1717,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
@@ -1735,22 +1735,22 @@
       "warnings": null
     },
     {
-      "traceID": "432cc846e415b3b7",
+      "traceID": "36f2d1a6ea16cc56",
       "spans": [
         {
-          "traceID": "432cc846e415b3b7",
-          "spanID": "410c2c451ecaa830",
+          "traceID": "36f2d1a6ea16cc56",
+          "spanID": "fb14eaaebf7d6fd5",
           "flags": 1,
           "operationName": "registerUser",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "432cc846e415b3b7",
-              "spanID": "e4c418fc053f207c"
+              "traceID": "36f2d1a6ea16cc56",
+              "spanID": "c7f326bb8efd4cd7"
             }
           ],
-          "startTime": 1699628592556000,
-          "duration": 1384051,
+          "startTime": 1699708105424516,
+          "duration": 1975430,
           "tags": [
             {
               "key": "http.status_code",
@@ -1785,7 +1785,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628593036000,
+              "timestamp": 1699708105912516,
               "fields": [
                 {
                   "key": "event",
@@ -1810,7 +1810,7 @@
               ]
             },
             {
-              "timestamp": 1699628593937000,
+              "timestamp": 1699708107369516,
               "fields": [
                 {
                   "key": "event",
@@ -1829,68 +1829,13 @@
           "warnings": null
         },
         {
-          "traceID": "432cc846e415b3b7",
-          "spanID": "e4c418fc053f207c",
-          "flags": 1,
-          "operationName": "POST",
-          "references": [
-            {
-              "refType": "CHILD_OF",
-              "traceID": "432cc846e415b3b7",
-              "spanID": "432cc846e415b3b7"
-            }
-          ],
-          "startTime": 1699628592053000,
-          "duration": 1932669,
-          "tags": [
-            {
-              "key": "http.status_code",
-              "type": "int64",
-              "value": 201
-            },
-            {
-              "key": "component",
-              "type": "string",
-              "value": "java-spring-rest-template"
-            },
-            {
-              "key": "span.kind",
-              "type": "string",
-              "value": "client"
-            },
-            {
-              "key": "http.url",
-              "type": "string",
-              "value": "http://ts-user-service:12342/api/v1/userservice/users/register"
-            },
-            {
-              "key": "peer.port",
-              "type": "int64",
-              "value": 12342
-            },
-            {
-              "key": "http.method",
-              "type": "string",
-              "value": "POST"
-            },
-            {
-              "key": "internal.span.format",
-              "type": "string",
-              "value": "proto"
-            }
-          ],
-          "logs": [],
-          "processID": "p2",
-          "warnings": null
-        },
-        {
-          "traceID": "432cc846e415b3b7",
-          "spanID": "432cc846e415b3b7",
+          "traceID": "36f2d1a6ea16cc56",
+          "spanID": "36f2d1a6ea16cc56",
           "flags": 1,
           "operationName": "addUser",
           "references": [],
-          "startTime": 1699628591276000,
-          "duration": 2922970,
+          "startTime": 1699708104369000,
+          "duration": 3475308,
           "tags": [
             {
               "key": "http.status_code",
@@ -1935,7 +1880,7 @@
           ],
           "logs": [
             {
-              "timestamp": 1699628591806000,
+              "timestamp": 1699708104877000,
               "fields": [
                 {
                   "key": "event",
@@ -1960,7 +1905,7 @@
               ]
             },
             {
-              "timestamp": 1699628594034000,
+              "timestamp": 1699708107830000,
               "fields": [
                 {
                   "key": "event",
@@ -1977,160 +1922,21 @@
           ],
           "processID": "p2",
           "warnings": null
-        }
-      ],
-      "processes": {
-        "p1": {
-          "serviceName": "ts-user-service",
-          "tags": [
-            {
-              "key": "hostname",
-              "type": "string",
-              "value": "83e386a3b0a4"
-            },
-            {
-              "key": "ip",
-              "type": "string",
-              "value": "172.25.0.40"
-            },
-            {
-              "key": "jaeger.version",
-              "type": "string",
-              "value": "Java-0.30.6"
-            }
-          ]
-        },
-        "p2": {
-          "serviceName": "ts-admin-user-service",
-          "tags": [
-            {
-              "key": "hostname",
-              "type": "string",
-              "value": "3b62cf3f2169"
-            },
-            {
-              "key": "ip",
-              "type": "string",
-              "value": "172.25.0.6"
-            },
-            {
-              "key": "jaeger.version",
-              "type": "string",
-              "value": "Java-0.30.6"
-            }
-          ]
-        }
-      },
-      "warnings": null
-    },
-    {
-      "traceID": "62d2414b629db308",
-      "spans": [
-        {
-          "traceID": "62d2414b629db308",
-          "spanID": "2ea9d60264daf565",
-          "flags": 1,
-          "operationName": "registerUser",
-          "references": [
-            {
-              "refType": "CHILD_OF",
-              "traceID": "62d2414b629db308",
-              "spanID": "63e2b9f68c857f02"
-            }
-          ],
-          "startTime": 1699628592288335,
-          "duration": 1503147,
-          "tags": [
-            {
-              "key": "http.status_code",
-              "type": "int64",
-              "value": 201
-            },
-            {
-              "key": "http.url",
-              "type": "string",
-              "value": "http://ts-admin-user-service:16115/api/v1/userservice/users/register"
-            },
-            {
-              "key": "component",
-              "type": "string",
-              "value": "java-web-servlet"
-            },
-            {
-              "key": "span.kind",
-              "type": "string",
-              "value": "server"
-            },
-            {
-              "key": "http.method",
-              "type": "string",
-              "value": "POST"
-            },
-            {
-              "key": "internal.span.format",
-              "type": "string",
-              "value": "proto"
-            }
-          ],
-          "logs": [
-            {
-              "timestamp": 1699628592784335,
-              "fields": [
-                {
-                  "key": "event",
-                  "type": "string",
-                  "value": "preHandle"
-                },
-                {
-                  "key": "handler",
-                  "type": "string",
-                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
-                },
-                {
-                  "key": "handler.class_simple_name",
-                  "type": "string",
-                  "value": "UserController"
-                },
-                {
-                  "key": "handler.method_name",
-                  "type": "string",
-                  "value": "registerUser"
-                }
-              ]
-            },
-            {
-              "timestamp": 1699628593784335,
-              "fields": [
-                {
-                  "key": "event",
-                  "type": "string",
-                  "value": "afterCompletion"
-                },
-                {
-                  "key": "handler",
-                  "type": "string",
-                  "value": "public org.springframework.http.ResponseEntity<edu.fudan.common.util.Response> user.controller.UserController.registerUser(user.dto.UserDto,org.springframework.http.HttpHeaders)"
-                }
-              ]
-            }
-          ],
-          "processID": "p1",
-          "warnings": null
         },
         {
-          "traceID": "62d2414b629db308",
-          "spanID": "63e2b9f68c857f02",
+          "traceID": "36f2d1a6ea16cc56",
+          "spanID": "c7f326bb8efd4cd7",
           "flags": 1,
           "operationName": "POST",
           "references": [
             {
               "refType": "CHILD_OF",
-              "traceID": "62d2414b629db308",
-              "spanID": "62d2414b629db308"
+              "traceID": "36f2d1a6ea16cc56",
+              "spanID": "36f2d1a6ea16cc56"
             }
           ],
-          "startTime": 1699628592034000,
-          "duration": 2011818,
+          "startTime": 1699708105125000,
+          "duration": 2574463,
           "tags": [
             {
               "key": "http.status_code",
@@ -2171,101 +1977,6 @@
           "logs": [],
           "processID": "p2",
           "warnings": null
-        },
-        {
-          "traceID": "62d2414b629db308",
-          "spanID": "62d2414b629db308",
-          "flags": 1,
-          "operationName": "addUser",
-          "references": [],
-          "startTime": 1699628591276000,
-          "duration": 2922770,
-          "tags": [
-            {
-              "key": "http.status_code",
-              "type": "int64",
-              "value": 200
-            },
-            {
-              "key": "component",
-              "type": "string",
-              "value": "java-web-servlet"
-            },
-            {
-              "key": "span.kind",
-              "type": "string",
-              "value": "server"
-            },
-            {
-              "key": "sampler.type",
-              "type": "string",
-              "value": "const"
-            },
-            {
-              "key": "sampler.param",
-              "type": "bool",
-              "value": true
-            },
-            {
-              "key": "http.url",
-              "type": "string",
-              "value": "http://ts-admin-user-service:16115/api/v1/adminuserservice/users"
-            },
-            {
-              "key": "http.method",
-              "type": "string",
-              "value": "POST"
-            },
-            {
-              "key": "internal.span.format",
-              "type": "string",
-              "value": "proto"
-            }
-          ],
-          "logs": [
-            {
-              "timestamp": 1699628591807000,
-              "fields": [
-                {
-                  "key": "event",
-                  "type": "string",
-                  "value": "preHandle"
-                },
-                {
-                  "key": "handler",
-                  "type": "string",
-                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
-                },
-                {
-                  "key": "handler.class_simple_name",
-                  "type": "string",
-                  "value": "AdminUserController"
-                },
-                {
-                  "key": "handler.method_name",
-                  "type": "string",
-                  "value": "addUser"
-                }
-              ]
-            },
-            {
-              "timestamp": 1699628594066000,
-              "fields": [
-                {
-                  "key": "event",
-                  "type": "string",
-                  "value": "afterCompletion"
-                },
-                {
-                  "key": "handler",
-                  "type": "string",
-                  "value": "public org.springframework.http.HttpEntity adminuser.controller.AdminUserController.addUser(adminuser.dto.UserDto,org.springframework.http.HttpHeaders)"
-                }
-              ]
-            }
-          ],
-          "processID": "p2",
-          "warnings": null
         }
       ],
       "processes": {
@@ -2275,12 +1986,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "83e386a3b0a4"
+              "value": "450b9dcdb885"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.40"
+              "value": "172.27.0.63"
             },
             {
               "key": "jaeger.version",
@@ -2295,12 +2006,12 @@
             {
               "key": "hostname",
               "type": "string",
-              "value": "3b62cf3f2169"
+              "value": "409a75decf7a"
             },
             {
               "key": "ip",
               "type": "string",
-              "value": "172.25.0.6"
+              "value": "172.27.0.65"
             },
             {
               "key": "jaeger.version",
